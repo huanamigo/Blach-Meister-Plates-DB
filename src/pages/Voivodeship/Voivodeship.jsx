@@ -1,6 +1,8 @@
+import styles from './Voivodeship.module.scss';
+
 const Voivodeship = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <ul>
         <li>B podlaskie</li>
         <li>C kujawsko-pomorskie</li>
