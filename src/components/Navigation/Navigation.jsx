@@ -1,10 +1,17 @@
 import NavigationLink from './NavigationLink/NavigationLink';
+import styles from './Navigation.module.scss';
 
 const Navigation = () => {
   return (
-    <div>
-      <NavigationLink name="Województwo" urlName="voivodeship" />
-      <NavigationLink name="Powiat" urlName="county" />
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
+        <NavigationLink name="Województwa" urlName="voivodeship" />
+        <NavigationLink name="Powiaty" urlName="county" />
+      </div>
+      <div className={styles.wrapper}>
+        <NavigationLink name="Województwa" urlName="voivodeship" />
+        <NavigationLink name="Powiaty" urlName="county" />
+      </div>
     </div>
   );
 };
