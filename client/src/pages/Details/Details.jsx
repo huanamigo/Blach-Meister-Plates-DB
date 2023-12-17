@@ -1,12 +1,12 @@
 import { useParams } from 'react-router-dom';
-import styles from './VoivodeshipDetails.module.scss';
+import styles from './Details.module.scss';
 
-const VoivodeshipDetails = () => {
+const Details = () => {
   const params = useParams();
   return (
     <div className={styles.container}>
       <ul>
-        <li>{params.voivodeshipName}</li>
+        <li>{params.details}</li>
         <li>1</li>
         <li>1</li>
       </ul>
@@ -14,4 +14,4 @@ const VoivodeshipDetails = () => {
   );
 };
 
-export default VoivodeshipDetails;
+export default Details;

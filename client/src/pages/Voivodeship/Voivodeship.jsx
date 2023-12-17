@@ -1,9 +1,11 @@
+import NavigationLink from '../../components/Navigation/NavigationLink/NavigationLink';
 import styles from './Voivodeship.module.scss';
 
 const Voivodeship = () => {
   return (
     <div className={styles.container}>
       <ul>
+        <NavigationLink name="B podlaskie" urlName="podlaskie" />
         <li>B podlaskie</li>
         <li>C kujawsko-pomorskie</li>
         <li>D Dolnośląskie</li>

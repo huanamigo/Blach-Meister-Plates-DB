@@ -8,10 +8,10 @@ const Navigation = () => {
         <NavigationLink name="Województwa" urlName="voivodeship" />
         <NavigationLink name="Powiaty" urlName="county" />
       </div>
-      <div className={styles.wrapper}>
+      {/* <div className={styles.wrapper}>
         <NavigationLink name="Województwa" urlName="voivodeship" />
         <NavigationLink name="Powiaty" urlName="county" />
-      </div>
+      </div> */}
     </div>
   );
 };
