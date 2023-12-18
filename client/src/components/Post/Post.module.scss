@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.post {
+  color: $mainFontColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
