@@ -3,7 +3,27 @@
 .post {
   color: $mainFontColor;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  // border: 1px solid red;
+  min-height: 60vh;
+  max-width: 600px;
+  margin: 2rem;
+
+  .header {
+    // border: 1px solid red;
+    display: block;
+    img {
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 50%;
+      width: 40px;
+    }
+  }
+}
+
+.photo {
+  img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
 }
