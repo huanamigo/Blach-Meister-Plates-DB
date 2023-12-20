@@ -5,13 +5,10 @@ const Navigation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
+        <NavigationLink name="Feed" urlName="/" />
         <NavigationLink name="Województwa" urlName="voivodeship" />
         <NavigationLink name="Powiaty" urlName="county" />
       </div>
-      {/* <div className={styles.wrapper}>
-        <NavigationLink name="Województwa" urlName="voivodeship" />
-        <NavigationLink name="Powiaty" urlName="county" />
-      </div> */}
     </div>
   );
 };

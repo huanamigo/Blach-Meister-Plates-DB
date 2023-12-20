@@ -19,3 +19,9 @@
     text-decoration: none;
   }
 }
+
+@media (max-width: $smScreen) {
+  .wrapper {
+    width: 100%;
+  }
+}

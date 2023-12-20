@@ -4,19 +4,25 @@
   color: $mainFontColor;
   display: flex;
   flex-direction: column;
-  // border: 1px solid red;
+  // outline: 1px solid red;
   min-height: 60vh;
   max-width: 600px;
-  margin: 2rem;
+  margin: 1.5rem;
 
   .header {
-    // border: 1px solid red;
-    display: block;
+    // outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    margin: 5px;
     img {
       aspect-ratio: 1/1;
       object-fit: cover;
       border-radius: 50%;
       width: 40px;
+    }
+
+    p {
+      margin-left: 1rem;
     }
   }
 }
@@ -25,5 +31,41 @@
   img {
     aspect-ratio: 1/1;
     object-fit: cover;
+  }
+}
+
+.bottom {
+  .likedBy {
+    display: flex;
+    align-items: center;
+  }
+
+  .time {
+    font-size: smaller;
+    color: rgb(175, 175, 175);
+  }
+
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+    margin: 20px 10px 10px 10px;
+  }
+
+  p {
+    margin: 0 5px 5px 5px;
+  }
+
+  img {
+    display: inline;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 25px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: $smScreen) {
+  .post {
+    width: 100vw;
   }
 }
