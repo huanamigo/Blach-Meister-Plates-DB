@@ -41,9 +41,9 @@ const Post = () => {
           <FaRegShareSquare />
           <p className={styles.likedBy}>
             <img src={avatar2} alt="second avatar" />
-            <p>
+            <span>
               Liked by <b>Twoja Stara</b> and 2115 others
-            </p>
+            </span>
           </p>
           <p className={styles.time}>{moment(createdAt).fromNow()}</p>
         </div>

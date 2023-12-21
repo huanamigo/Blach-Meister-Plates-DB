@@ -5,6 +5,7 @@ import Details from './pages/Details/Details';
 import Voivodeship from './pages/Voivodeship/Voivodeship';
 import County from './pages/County/County';
 import Feed from './pages/Feed/Feed';
+import Plates from './pages/Plates/Plates';
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Feed />} />
-        <Route path="voivodeship" element={<Voivodeship />} />
-        <Route path="voivodeship/:details" element={<Details />} />
-        <Route path="county" element={<County />} />
-        <Route path="county/:details" element={<Details />} />
+        {/* <Route path="voivodeship" element={<Voivodeship />} />
+        <Route path="voivodeship/:details" element={<Details />} /> */}
+        <Route path="plates" element={<Plates />} />
+        <Route path="plates/:details" element={<Details />} />
       </Routes>
     </div>
   );
