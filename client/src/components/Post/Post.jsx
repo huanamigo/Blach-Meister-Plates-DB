@@ -12,6 +12,7 @@ import { useState } from 'react';
 import photo from '../../photos/1.webp';
 import avatar from '../../photos/avatar.webp';
 import avatar2 from '../../photos/avatar2.webp';
+import NavigationLink from '../Navigation/NavigationLink/NavigationLink';
 
 const Post = () => {
   let createdAt = '2023-12-20T20:21:36.387Z';
@@ -32,13 +33,20 @@ const Post = () => {
           />
         </div>
         <div className={styles.bottom}>
-          {liked ? (
-            <FaHeart onClick={() => setLiked(!liked)} />
-          ) : (
-            <FaRegHeart onClick={() => setLiked(!liked)} />
-          )}
-          <FaRegCommentAlt />
-          <FaRegShareSquare />
+          <div className={styles.wrapper}>
+            <div className={styles.share}>
+              {liked ? (
+                <FaHeart onClick={() => setLiked(!liked)} />
+              ) : (
+                <FaRegHeart onClick={() => setLiked(!liked)} />
+              )}
+              <FaRegCommentAlt />
+              <FaRegShareSquare />
+            </div>
+            <div className={styles.category}>
+              <NavigationLink name="Powiat Łańcucki" urlName="plates/RLA" />
+            </div>
+          </div>
           <p className={styles.likedBy}>
             <img src={avatar2} alt="second avatar" />
             <span>
