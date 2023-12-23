@@ -13,8 +13,6 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Feed />} />
-        {/* <Route path="voivodeship" element={<Voivodeship />} />
-        <Route path="voivodeship/:details" element={<Details />} /> */}
         <Route path="plates" element={<Plates />} />
         <Route path="plates/:details" element={<Details />} />
       </Routes>
