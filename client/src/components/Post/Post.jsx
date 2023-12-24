@@ -7,16 +7,9 @@ import {
   FaRegShareSquare,
 } from 'react-icons/fa';
 import { useState } from 'react';
-
-// temp cuz we dont have backend
-import photo from '../../photos/1.webp';
-import avatar from '../../photos/avatar.webp';
-import avatar2 from '../../photos/avatar2.webp';
 import NavigationLink from '../Navigation/NavigationLink/NavigationLink';
 
-const Post = () => {
-  let createdAt = '2023-12-20T20:21:36.387Z';
-
+const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
   const [liked, setLiked] = useState(false);
 
   return (
@@ -24,7 +17,7 @@ const Post = () => {
       <div className={styles.post}>
         <div className={styles.header}>
           <img src={avatar} alt="random person form tpdne" />
-          <p>majki</p>
+          <p>{author}</p>
         </div>
         <div className={styles.photo}>
           <img
@@ -44,16 +37,13 @@ const Post = () => {
               <FaRegShareSquare />
             </div>
             <div className={styles.category}>
-              <NavigationLink name="Powiat Łańcucki" urlName="plates/RLA" />
+              <NavigationLink name={name} urlName={`plates/${plate}`} />
             </div>
           </div>
           <p className={styles.likedBy}>
-            <img src={avatar2} alt="second avatar" />
-            <span>
-              Liked by <b>Twoja Stara</b> and 2115 others
-            </span>
+            <span>{noLikes} likes</span>
           </p>
-          <p className={styles.time}>{moment(createdAt).fromNow()}</p>
+          <p className={styles.time}>{moment(createdTime).fromNow()}</p>
         </div>
       </div>
     </div>
