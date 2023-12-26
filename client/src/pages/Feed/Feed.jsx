@@ -8,7 +8,7 @@ import photo from '../../photos/1.webp';
 const Feed = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.welcome}>For you (and everyone else)</h2>
+      {/* <h2 className={styles.welcome}>For you (and everyone else)</h2> */}
       <div className={styles.wrapper}>
         <Post
           author="Majki"

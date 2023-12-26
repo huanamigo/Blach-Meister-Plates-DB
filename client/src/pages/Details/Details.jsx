@@ -5,11 +5,7 @@ const Details = () => {
   const params = useParams();
   return (
     <div className={styles.container}>
-      <ul>
-        <li>{params.details}</li>
-        <li>1</li>
-        <li>1</li>
-      </ul>
+      <h1>{params.details}</h1>
     </div>
   );
 };

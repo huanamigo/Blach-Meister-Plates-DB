@@ -20,3 +20,9 @@
   justify-content: center;
   width: 100%;
 }
+
+@media (max-width: $smScreen) {
+  .wrapper {
+    margin-top: 0;
+  }
+}

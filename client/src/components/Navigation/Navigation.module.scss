@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  width: 50%;
+  width: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,6 +21,9 @@
 }
 
 @media (max-width: $smScreen) {
+  .container {
+    height: 4rem;
+  }
   .wrapper {
     width: 100%;
   }

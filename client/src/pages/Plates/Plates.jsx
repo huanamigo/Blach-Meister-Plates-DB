@@ -7,7 +7,7 @@ const Plates = () => {
       <ul>
         <p>śląsk</p>
         <NavigationLink name="Powiat Żywiecki" urlName="SZY" />
-        <li>powiat jeden</li>
+        <NavigationLink name="Powiat Bielski" urlName="SBI" />
       </ul>
     </div>
   );
