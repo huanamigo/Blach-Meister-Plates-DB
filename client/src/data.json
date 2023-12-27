@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "author": "majki",
+    "plate": "RLA",
+    "noLikes": 2115,
+    "createdTime": "2023-12-20T20:21:36.387Z",
+    "name": "Powiat Łańcucki",
+    "avatar": "placeholder",
+    "photo": "placeholder"
+  },
+  {
+    "id": 2,
+    "author": "twój stary",
+    "plate": "SZY",
+    "noLikes": 2137,
+    "createdTime": "2023-12-20T19:21:36.387Z",
+    "name": "Powiat Żywiecki",
+    "avatar": "placeholder",
+    "photo": "placeholder"
+  },
+  {
+    "id": 3,
+    "author": "moja stara",
+    "plate": "SBI",
+    "noLikes": 420,
+    "createdTime": "2023-12-20T18:21:36.387Z",
+    "name": "Powiat Bielski",
+    "avatar": "placeholder",
+    "photo": "placeholder"
+  }
+]

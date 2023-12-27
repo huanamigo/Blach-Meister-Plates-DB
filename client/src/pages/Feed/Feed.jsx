@@ -19,24 +19,16 @@ const Feed = () => {
           avatar={avatar}
           photo={photo}
         />
-        <Post
-          author="Mój stary"
-          plate="SZY"
-          noLikes={2137}
-          name="Powiat Żywiecki"
-          createdTime="2023-12-24T10:10:36.387Z"
-          avatar={avatar}
-          photo={photo}
-        />
-        <Post
-          author="Twój stary"
-          plate="SBI"
-          noLikes={420}
-          name="Powiat Bielsko"
-          createdTime="2023-12-20T22:21:36.387Z"
-          avatar={avatar}
-          photo={photo}
-        />
+
+        {/* {posts.map((post) => (
+          <Post
+            author={post.author}
+            plate={post.plate}
+            noLikes={post.message}
+            createdTime={post.createdTime}
+            name={post.name}
+          />
+        ))} */}
       </div>
     </div>
   );
