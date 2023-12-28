@@ -4,11 +4,9 @@ import styles from './Plates.module.scss';
 const Plates = () => {
   return (
     <div className={styles.container}>
-      <ul>
-        <p>śląsk</p>
-        <NavigationLink name="Powiat Żywiecki" urlName="SZY" />
-        <NavigationLink name="Powiat Bielski" urlName="SBI" />
-      </ul>
+      <NavigationLink name="Powiat Żywiecki" urlName="SZY" />
+      <NavigationLink name="Powiat Bielski" urlName="SBI" />
+      <NavigationLink name="Powiat Łańcucki" urlName="RLA" />
     </div>
   );
 };

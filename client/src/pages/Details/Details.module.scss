@@ -1,9 +1,21 @@
 @import '../../styles/variables.scss';
 
 .container {
+  * {
+    color: $mainFontColor;
+  }
+}
+
+.wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 80vh;
-  color: $mainFontColor;
+  width: 100vw;
+  margin-top: 1rem;
+}
+
+@media (max-width: $smScreen) {
+  .wrapper {
+    margin-top: 0;
+  }
 }

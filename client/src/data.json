@@ -28,5 +28,25 @@
     "name": "Powiat Bielski",
     "avatar": "placeholder",
     "photo": "placeholder"
+  },
+  {
+    "id": 4,
+    "author": "andrzej duda",
+    "plate": "SBI",
+    "noLikes": 69,
+    "createdTime": "2023-12-20T21:21:36.387Z",
+    "name": "Powiat Bielski",
+    "avatar": "placeholder",
+    "photo": "placeholder"
+  },
+  {
+    "id": 5,
+    "author": "jaroslaw kaczynski",
+    "plate": "SBI",
+    "noLikes": 2020,
+    "createdTime": "2022-12-20T18:21:36.387Z",
+    "name": "Powiat Bielski",
+    "avatar": "placeholder",
+    "photo": "placeholder"
   }
 ]

@@ -11,6 +11,7 @@ import NavigationLink from '../Navigation/NavigationLink/NavigationLink';
 
 const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
   const [liked, setLiked] = useState(false);
+  const [localLikes, setLocalLikes] = useState(noLikes);
 
   return (
     <div>
@@ -29,9 +30,19 @@ const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
           <div className={styles.wrapper}>
             <div className={styles.share}>
               {liked ? (
-                <FaHeart onClick={() => setLiked(!liked)} />
+                <FaHeart
+                  onClick={() => {
+                    setLiked(!liked);
+                    setLocalLikes(localLikes - 1);
+                  }}
+                />
               ) : (
-                <FaRegHeart onClick={() => setLiked(!liked)} />
+                <FaRegHeart
+                  onClick={() => {
+                    setLiked(!liked);
+                    setLocalLikes(localLikes + 1);
+                  }}
+                />
               )}
               <FaRegCommentAlt />
               <FaRegShareSquare />
@@ -41,7 +52,7 @@ const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
             </div>
           </div>
           <p className={styles.likedBy}>
-            <span>{noLikes} likes</span>
+            <span>{localLikes} likes</span>
           </p>
           <p className={styles.time}>{moment(createdTime).fromNow()}</p>
         </div>
