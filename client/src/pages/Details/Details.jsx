@@ -4,7 +4,7 @@ import styles from './Details.module.scss';
 import Post from '../../components/Post/Post';
 
 //temp
-import avatar from '../../photos/avatar.webp';
+import avatar from '../../photos/av1.webp';
 import photo from '../../photos/1.webp';
 import data from '../../data.json';
 
@@ -25,8 +25,8 @@ const Details = () => {
             noLikes={post.noLikes}
             createdTime={post.createdTime}
             name={post.name}
-            avatar={avatar}
-            photo={photo}
+            avatar={`/src/photos/av${post.id}.webp`}
+            photo={`/src/photos/${post.id}.webp`}
           />
         ))}
       </div>

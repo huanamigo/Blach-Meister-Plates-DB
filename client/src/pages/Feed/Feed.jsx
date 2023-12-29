@@ -3,7 +3,7 @@ import styles from './Feed.module.scss';
 import { useState } from 'react';
 
 // temp cuz we dont have backend
-import avatar from '../../photos/avatar.webp';
+import avatar from '../../photos/av1.webp';
 import photo from '../../photos/1.webp';
 import data from '../../data.json';
 
@@ -20,8 +20,8 @@ const Feed = () => {
             noLikes={post.noLikes}
             createdTime={post.createdTime}
             name={post.name}
-            avatar={avatar}
-            photo={photo}
+            avatar={`/src/photos/av${post.id}.webp`}
+            photo={`/src/photos/${post.id}.webp`}
           />
         ))}
       </div>
