@@ -13,7 +13,7 @@
     // outline: 1px solid red;
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 5px 0;
     img {
       aspect-ratio: 1/1;
       object-fit: cover;
@@ -81,5 +81,9 @@
 @media (max-width: $smScreen) {
   .post {
     width: 100vw;
+
+    .header {
+      margin: 5px;
+    }
   }
 }
