@@ -8,8 +8,18 @@ import {
 } from 'react-icons/fa';
 import { useState } from 'react';
 import NavigationLink from '../Navigation/NavigationLink/NavigationLink';
+import PlatesLink from '../../pages/Plates/PlatesLink/PlatesLink';
 
-const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
+const Post = ({
+  author,
+  plate,
+  noLikes,
+  name,
+  createdTime,
+  avatar,
+  photo,
+  isDetailed,
+}) => {
   const [liked, setLiked] = useState(false);
   const [localLikes, setLocalLikes] = useState(noLikes);
 
@@ -48,7 +58,11 @@ const Post = ({ author, plate, noLikes, name, createdTime, avatar, photo }) => {
               <FaRegShareSquare />
             </div>
             <div className={styles.category}>
-              <NavigationLink name={name} urlName={`plates/${plate}`} />
+              {isDetailed ? (
+                <></>
+              ) : (
+                <PlatesLink name={name} urlName={`plates/${plate}`} />
+              )}
             </div>
           </div>
           <p className={styles.likedBy}>

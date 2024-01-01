@@ -20,6 +20,7 @@ const Feed = () => {
             name={post.name}
             avatar={`/src/photos/av${post.id}.webp`}
             photo={`/src/photos/${post.id}.webp`}
+            isDetailed={false}
           />
         ))}
       </div>

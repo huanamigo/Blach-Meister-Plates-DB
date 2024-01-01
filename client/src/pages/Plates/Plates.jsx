@@ -1,9 +1,9 @@
-import NavigationLink from '../../components/Navigation/NavigationLink/NavigationLink';
+import { useEffect, useState } from 'react';
+import PlatesLink from './PlatesLink/PlatesLink';
 import styles from './Plates.module.scss';
 
 //temp
 import data from '../../data.json';
-import { useEffect, useState } from 'react';
 
 const Plates = () => {
   const [platesId, setPlatesId] = useState([]);
@@ -11,6 +11,7 @@ const Plates = () => {
   useEffect(() => {
     let temp = [];
     data.map((post) => {
+      console.log('first');
       if (!temp.includes(post.name)) {
         temp.push({
           key: post.id,
@@ -20,11 +21,12 @@ const Plates = () => {
       }
     });
     setPlatesId(temp);
-  }, []);
+  }, [data]);
+
   return (
     <div className={styles.container}>
       {platesId.map((plate) => (
-        <Plates key={plate.key} name={plate.name} urlName={plate.url} />
+        <PlatesLink key={plate.key} name={plate.name} urlName={plate.url} />
       ))}
     </div>
   );
