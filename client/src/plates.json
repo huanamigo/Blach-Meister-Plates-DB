@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Podlaskie",
+    "letter": "B",
+    "items": [
+      {
+        "fullName": "Białystok",
+        "plate": "BI"
+      },
+      {
+        "fullName": "Suwałki",
+        "plate": "BS"
+      },
+      {
+        "fullName": "Łomża",
+        "plate": "BL"
+      },
+      {
+        "fullName": "powiat augustowski",
+        "plate": "BAU"
+      },
+      {
+        "fullName": "powiat białostocki",
+        "plate": "BIA"
+      },
+      {
+        "fullName": "powiat grajewski",
+        "plate": "BGR"
+      },
+      {
+        "fullName": "powiat hajnowski",
+        "plate": "BHA"
+      },
+      {
+        "fullName": "powiat kolneński",
+        "plate": "BKL"
+      },
+      {
+        "fullName": "powiat moniecki",
+        "plate": "BMN"
+      },
+      {
+        "fullName": "powiat sejneński",
+        "plate": "BSE"
+      },
+      {
+        "fullName": "powiat siematycki",
+        "plate": "BSI"
+      },
+      {
+        "fullName": "powiat sokólski",
+        "plate": "BSK"
+      },
+      {
+        "fullName": "powiat suwalski",
+        "plate": "BSU"
+      },
+      {
+        "fullName": "powiat wysokomazowiecki",
+        "plate": "BWM"
+      },
+      {
+        "fullName": "powiat zambrowski",
+        "plate": "BZA"
+      },
+      {
+        "fullName": "powiat łomżyński",
+        "plate": "BLM"
+      }
+    ]
+  },
+  {
+    "name": "Podlaskie",
+    "letter": "B",
+    "items": [
+      {
+        "fullName": "Białystok",
+        "plate": "BI"
+      },
+      {
+        "fullName": "Suwałki",
+        "plate": "BS"
+      },
+      {
+        "fullName": "Łomża",
+        "plate": "BL"
+      },
+      {
+        "fullName": "powiat augustowski",
+        "plate": "BAU"
+      },
+      {
+        "fullName": "powiat białostocki",
+        "plate": "BIA"
+      },
+      {
+        "fullName": "powiat grajewski",
+        "plate": "BGR"
+      },
+      {
+        "fullName": "powiat hajnowski",
+        "plate": "BHA"
+      },
+      {
+        "fullName": "powiat kolneński",
+        "plate": "BKL"
+      },
+      {
+        "fullName": "powiat moniecki",
+        "plate": "BMN"
+      },
+      {
+        "fullName": "powiat sejneński",
+        "plate": "BSE"
+      },
+      {
+        "fullName": "powiat siematycki",
+        "plate": "BSI"
+      },
+      {
+        "fullName": "powiat sokólski",
+        "plate": "BSK"
+      },
+      {
+        "fullName": "powiat suwalski",
+        "plate": "BSU"
+      },
+      {
+        "fullName": "powiat wysokomazowiecki",
+        "plate": "BWM"
+      },
+      {
+        "fullName": "powiat zambrowski",
+        "plate": "BZA"
+      },
+      {
+        "fullName": "powiat łomżyński",
+        "plate": "BLM"
+      }
+    ]
+  }
+]

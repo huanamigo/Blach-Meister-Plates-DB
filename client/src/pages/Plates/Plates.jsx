@@ -1,32 +1,54 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import PlatesLink from './PlatesLink/PlatesLink';
 import styles from './Plates.module.scss';
 
 //temp
-import data from '../../data.json';
+// import data from '../../data.json';
+import plates from '../../plates.json';
 
 const Plates = () => {
-  const [platesId, setPlatesId] = useState([]);
+  // const [platesId, setPlatesId] = useState([]);
 
-  useEffect(() => {
-    let temp = [];
-    data.map((post) => {
-      console.log('first');
-      if (!temp.includes(post.name)) {
-        temp.push({
-          key: post.id,
-          name: post.name,
-          url: post.plate,
-        });
-      }
-    });
-    setPlatesId(temp);
-  }, [data]);
+  // // useEffect(() => {
+  // //   let temp = [];
+  // //   data.map((post) => {
+  // //     if (!temp.some((t) => t.name === post.name)) {
+  // //       temp.push({
+  // //         key: post.id,
+  // //         name: post.name,
+  // //         url: post.plate,
+  // //       });
+  // //     }
+  // //   });
+  // //   setPlatesId(temp);
+  // // }, [data]);
+
+  // useEffect(() => {
+  //   let temp = [];
+  //   console.log(plates);
+  //   // plates.map((plate) => {
+  //   //   temp.push({
+  //   //     key: post.id,
+  //   //     name: post.name,
+  //   //     url: post.plate,
+  //   //   });
+  //   // });
+  //   // setPlatesId(temp);
+  // }, [data]);
 
   return (
     <div className={styles.container}>
-      {platesId.map((plate) => (
-        <PlatesLink key={plate.key} name={plate.name} urlName={plate.url} />
+      {plates.map((plate) => (
+        <>
+          <h1>{plate.name}</h1>
+          {plate.items.map((blacha) => (
+            <PlatesLink
+              key={blacha.plate}
+              name={blacha.fullName}
+              urlName={blacha.plate}
+            />
+          ))}
+        </>
       ))}
     </div>
   );

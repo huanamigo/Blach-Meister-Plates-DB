@@ -15,22 +15,28 @@ const Details = () => {
   );
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper}>
-        <h1>{posts[0].name}</h1>
-        {posts.map((post) => (
-          <Post
-            key={post.id}
-            author={post.author}
-            plate={post.plate}
-            noLikes={post.noLikes}
-            createdTime={post.createdTime}
-            name={post.name}
-            avatar={`/src/photos/av${post.id}.webp`}
-            photo={`/src/photos/${post.id}.webp`}
-            isDetailed={true}
-          />
-        ))}
-      </div>
+      {posts < 1 ? (
+        <div className={styles.wrapper}>
+          <h1>There's no post with this plate</h1>
+        </div>
+      ) : (
+        <div className={styles.wrapper}>
+          <h1>{posts[0].name}</h1>
+          {posts.map((post) => (
+            <Post
+              key={post.id}
+              author={post.author}
+              plate={post.plate}
+              noLikes={post.noLikes}
+              createdTime={post.createdTime}
+              name={post.name}
+              avatar={`/src/photos/av${post.id}.webp`}
+              photo={`/src/photos/${post.id}.webp`}
+              isDetailed={true}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

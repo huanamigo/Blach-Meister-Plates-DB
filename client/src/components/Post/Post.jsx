@@ -7,7 +7,6 @@ import {
   FaRegShareSquare,
 } from 'react-icons/fa';
 import { useState } from 'react';
-import NavigationLink from '../Navigation/NavigationLink/NavigationLink';
 import PlatesLink from '../../pages/Plates/PlatesLink/PlatesLink';
 
 const Post = ({

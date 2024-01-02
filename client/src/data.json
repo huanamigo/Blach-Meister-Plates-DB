@@ -48,5 +48,45 @@
     "name": "Tablice specjalne",
     "avatar": "av5",
     "photo": "5"
+  },
+  {
+    "id": 6,
+    "author": "test",
+    "plate": "FZ",
+    "noLikes": 23643,
+    "createdTime": "2023-12-20T19:21:36.387Z",
+    "name": "Zielona Góra",
+    "avatar": "av2",
+    "photo": "2"
+  },
+  {
+    "id": 7,
+    "author": "test",
+    "plate": "FZ",
+    "noLikes": 9345,
+    "createdTime": "2023-12-20T19:21:36.387Z",
+    "name": "Zielona Góra",
+    "avatar": "av2",
+    "photo": "2"
+  },
+  {
+    "id": 8,
+    "author": "test",
+    "plate": "FZ",
+    "noLikes": 312,
+    "createdTime": "2023-12-20T19:21:36.387Z",
+    "name": "Zielona Góra",
+    "avatar": "av2",
+    "photo": "2"
+  },
+  {
+    "id": 9,
+    "author": "test",
+    "plate": "FZ",
+    "noLikes": 120,
+    "createdTime": "2023-12-20T19:21:36.387Z",
+    "name": "Zielona Góra",
+    "avatar": "av2",
+    "photo": "2"
   }
 ]
