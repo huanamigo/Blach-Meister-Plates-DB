@@ -5,6 +5,7 @@ import styles from './Plates.module.scss';
 //temp
 // import data from '../../data.json';
 import plates from '../../plates.json';
+import { Fragment } from 'react';
 
 const Plates = () => {
   // const [platesId, setPlatesId] = useState([]);
@@ -39,16 +40,18 @@ const Plates = () => {
   return (
     <div className={styles.container}>
       {plates.map((plate) => (
-        <>
+        <Fragment key={plate.name}>
           <h1>{plate.name}</h1>
-          {plate.items.map((blacha) => (
-            <PlatesLink
-              key={blacha.plate}
-              name={blacha.fullName}
-              urlName={blacha.plate}
-            />
-          ))}
-        </>
+          <div className={styles.wrapper}>
+            {plate.items.map((blacha) => (
+              <PlatesLink
+                key={blacha.plate}
+                name={blacha.fullName}
+                urlName={blacha.plate}
+              />
+            ))}
+          </div>
+        </Fragment>
       ))}
     </div>
   );

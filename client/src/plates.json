@@ -70,72 +70,96 @@
     ]
   },
   {
-    "name": "Podlaskie",
-    "letter": "B",
+    "name": "kujawsko-pomorskie",
+    "letter": "C",
     "items": [
       {
-        "fullName": "Białystok",
-        "plate": "BI"
+        "fullName": "Bydgoszcz",
+        "plate": "CB"
       },
       {
-        "fullName": "Suwałki",
-        "plate": "BS"
+        "fullName": "Grudziądz",
+        "plate": "CG"
       },
       {
-        "fullName": "Łomża",
-        "plate": "BL"
+        "fullName": "Toruń",
+        "plate": "CT"
       },
       {
-        "fullName": "powiat augustowski",
-        "plate": "BAU"
+        "fullName": "Włocławek",
+        "plate": "CW"
       },
       {
-        "fullName": "powiat białostocki",
-        "plate": "BIA"
+        "fullName": "powiat aleksandrowski",
+        "plate": "CAL"
       },
       {
-        "fullName": "powiat grajewski",
-        "plate": "BGR"
+        "fullName": "powiat brodnicki",
+        "plate": "CBR"
       },
       {
-        "fullName": "powiat hajnowski",
-        "plate": "BHA"
+        "fullName": "powiat bydgoski",
+        "plate": "CBY"
       },
       {
-        "fullName": "powiat kolneński",
-        "plate": "BKL"
+        "fullName": "powiat chełmiński",
+        "plate": "CCH"
       },
       {
-        "fullName": "powiat moniecki",
-        "plate": "BMN"
+        "fullName": "powiat golubsko-dobrzyński",
+        "plate": "CGD"
       },
       {
-        "fullName": "powiat sejneński",
-        "plate": "BSE"
+        "fullName": "powiat grudziądzki",
+        "plate": "CGR"
       },
       {
-        "fullName": "powiat siematycki",
-        "plate": "BSI"
+        "fullName": "powiat inowrocławski",
+        "plate": "CIN"
       },
       {
-        "fullName": "powiat sokólski",
-        "plate": "BSK"
+        "fullName": "powiat lipnowski",
+        "plate": "CLI"
       },
       {
-        "fullName": "powiat suwalski",
-        "plate": "BSU"
+        "fullName": "powiat mogileński",
+        "plate": "CMG"
       },
       {
-        "fullName": "powiat wysokomazowiecki",
-        "plate": "BWM"
+        "fullName": "powiat nakielski",
+        "plate": "CNA"
       },
       {
-        "fullName": "powiat zambrowski",
-        "plate": "BZA"
+        "fullName": "powiat radziejowski",
+        "plate": "CRA"
       },
       {
-        "fullName": "powiat łomżyński",
-        "plate": "BLM"
+        "fullName": "powiat rypiński",
+        "plate": "CRY"
+      },
+      {
+        "fullName": "powiat sępoleński",
+        "plate": "CSE"
+      },
+      {
+        "fullName": "powiat świecki",
+        "plate": "CSW"
+      },
+      {
+        "fullName": "powiat toruński",
+        "plate": "CTR"
+      },
+      {
+        "fullName": "powiat tucholski",
+        "plate": "CTU"
+      },
+      {
+        "fullName": "powiat wąbrzeski",
+        "plate": "CWA"
+      },
+      {
+        "fullName": "powiat żniński",
+        "plate": "CZN"
       }
     ]
   }
