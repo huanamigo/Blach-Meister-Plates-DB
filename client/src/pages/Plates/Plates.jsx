@@ -1,11 +1,10 @@
-// import { useEffect, useState } from 'react';
+import { useEffect, useState, Fragment } from 'react';
 import PlatesLink from './PlatesLink/PlatesLink';
 import styles from './Plates.module.scss';
 
 //temp
 // import data from '../../data.json';
 import plates from '../../plates.json';
-import { Fragment } from 'react';
 
 const Plates = () => {
   // const [platesId, setPlatesId] = useState([]);
