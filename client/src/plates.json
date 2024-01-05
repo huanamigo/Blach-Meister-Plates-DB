@@ -162,5 +162,127 @@
         "plate": "CZN"
       }
     ]
+  },
+  {
+    "name": "dolnośląskie",
+    "letter": "D",
+    "items": [
+      {
+        "fullName": "Jelenia Góra",
+        "plate": "DJ"
+      },
+      {
+        "fullName": "Legnica",
+        "plate": "DL"
+      },
+      {
+        "fullName": "Wałbrzych",
+        "plate": "DB"
+      },
+      {
+        "fullName": "Wrocław",
+        "plate": "DW"
+      },
+      {
+        "fullName": "powiat bolesławiecki",
+        "plate": "DBL"
+      },
+      {
+        "fullName": "powiat dzierżoniowski",
+        "plate": "DDZ"
+      },
+      {
+        "fullName": "powiat górowski",
+        "plate": "DGR"
+      },
+      {
+        "fullName": "powiat głogowski",
+        "plate": "DGL"
+      },
+      {
+        "fullName": "powiat jaworski",
+        "plate": "DJA"
+      },
+      {
+        "fullName": "powiat jeleniogórski",
+        "plate": "DJE"
+      },
+      {
+        "fullName": "powiat kamiennogórski",
+        "plate": "DKA"
+      },
+      {
+        "fullName": "powiat kłodzki",
+        "plate": "DKL"
+      },
+      {
+        "fullName": "powiat legnicki",
+        "plate": "DLE"
+      },
+      {
+        "fullName": "powiat lubański",
+        "plate": "DLB"
+      },
+      {
+        "fullName": "powiat lubiński",
+        "plate": "DLU"
+      },
+      {
+        "fullName": "powiat milicki",
+        "plate": "DMI"
+      },
+      {
+        "fullName": "powiat oleśnicki",
+        "plate": "DOL"
+      },
+      {
+        "fullName": "powiat oławski",
+        "plate": "DOA"
+      },
+      {
+        "fullName": "powiat polkowicki",
+        "plate": "DPL"
+      },
+      {
+        "fullName": "powiat średzki",
+        "plate": "DSR"
+      },
+      {
+        "fullName": "powiat strzeliński",
+        "plate": "DST"
+      },
+      {
+        "fullName": "powiat świdnicki",
+        "plate": "DSW"
+      },
+      {
+        "fullName": "powiat trzebnicki",
+        "plate": "DTR"
+      },
+      {
+        "fullName": "powiat wałbrzyski",
+        "plate": "DBA"
+      },
+      {
+        "fullName": "powiat wołowski",
+        "plate": "DWL"
+      },
+      {
+        "fullName": "powiat wrocławski",
+        "plate": "DWR"
+      },
+      {
+        "fullName": "powiat ząbkowicki",
+        "plate": "DZA"
+      },
+      {
+        "fullName": "powiat zgorzelecki",
+        "plate": "DZG"
+      },
+      {
+        "fullName": "powiat złotoryjski",
+        "plate": "DZL"
+      }
+    ]
   }
 ]
