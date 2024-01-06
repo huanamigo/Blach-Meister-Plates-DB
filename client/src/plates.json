@@ -1,6 +1,6 @@
 [
   {
-    "name": "Podlaskie",
+    "name": "podlaskie",
     "letter": "B",
     "items": [
       {
@@ -282,6 +282,108 @@
       {
         "fullName": "powiat złotoryjski",
         "plate": "DZL"
+      }
+    ]
+  },
+  {
+    "name": "łódzkie",
+    "letter": "E",
+    "items": [
+      {
+        "fullName": "Piotrków Trybunalski",
+        "plate": "EP"
+      },
+      {
+        "fullName": "Skierniewice",
+        "plate": "ES"
+      },
+      {
+        "fullName": "Łódź",
+        "plate": "EL"
+      },
+      {
+        "fullName": "powiat bełchatowski",
+        "plate": "EBE"
+      },
+      {
+        "fullName": "powiat brzeziński",
+        "plate": "EBR"
+      },
+      {
+        "fullName": "powiat kutnowski",
+        "plate": "EKU"
+      },
+      {
+        "fullName": "powiat opoczyński",
+        "plate": "EOP"
+      },
+      {
+        "fullName": "powiat pabianicki",
+        "plate": "EPA"
+      },
+      {
+        "fullName": "powiat pajęczański",
+        "plate": "EPJ"
+      },
+      {
+        "fullName": "powiat piotrkowski",
+        "plate": "EPI"
+      },
+      {
+        "fullName": "powiat poddębicki",
+        "plate": "EPD"
+      },
+      {
+        "fullName": "powiat radomszczański",
+        "plate": "ERA"
+      },
+      {
+        "fullName": "powiat rawski",
+        "plate": "ERW"
+      },
+      {
+        "fullName": "powiat sieradzki",
+        "plate": "ESI"
+      },
+      {
+        "fullName": "powiat skierniewicki",
+        "plate": "ESK"
+      },
+      {
+        "fullName": "powiat tomaszowski",
+        "plate": "ETM"
+      },
+      {
+        "fullName": "powiat wieluński",
+        "plate": "EWI"
+      },
+      {
+        "fullName": "powiat wieruszowski",
+        "plate": "EWE"
+      },
+      {
+        "fullName": "powiat zduńskowolski",
+        "plate": "EZD"
+      },
+      {
+        "fullName": "powiat zgierski",
+        "plate": "EZG"
+      },
+      {
+        "fullName": "powiat łaski",
+        "plate": "ELA"
+      },
+      {
+        "fullName": "powiat łęczycki",
+        "plate": "ELE"
+      },
+      {
+        "fullName": "powiat łódzki wschodni",
+        "plate": "ELW"
+      },
+      {
+        "fullName": "powiat łowicki",
+        "plate": "ELC"
       }
     ]
   }
