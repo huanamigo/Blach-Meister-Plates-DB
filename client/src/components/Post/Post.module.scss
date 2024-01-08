@@ -55,6 +55,21 @@
       margin-right: 10px;
       a {
         text-decoration: none;
+        background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 1)
+          ),
+          linear-gradient(to right, $mainColor, $mainColor);
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 300ms, margin-bottom 150ms;
+
+        &:hover {
+          background-size: 0 3px, 100% 3px;
+          margin-bottom: 3px;
+        }
       }
     }
   }
@@ -63,6 +78,7 @@
     height: 1.5em;
     width: 1.5em;
     margin: 20px 10px 10px 10px;
+    cursor: pointer;
   }
 
   p {
