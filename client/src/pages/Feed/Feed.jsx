@@ -4,11 +4,13 @@ import { useState } from 'react';
 
 // temp cuz we dont have backend
 import data from '../../data.json';
+import AddButton from '../../components/AddButton/AddButton';
 
 const Feed = () => {
   const [posts, setPosts] = useState(data);
   return (
     <div className={styles.container}>
+      <AddButton />
       <div className={styles.wrapper}>
         {posts.map((post) => (
           <Post
