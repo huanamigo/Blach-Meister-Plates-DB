@@ -12,11 +12,7 @@ import {
   createTheme,
 } from '@mui/material';
 import plates from '../../plates.json';
-
-// $background: rgba(25, 25, 40, 255);
-// $background: rgba(0, 0, 0);
-// $mainColor: rgba(135, 215, 75, 255);
-// $mainFontColor: whitesmoke;
+import styles from './AddButton.module.scss';
 
 const AddButton = () => {
   const [open, setOpen] = useState(false);
@@ -39,8 +35,10 @@ const AddButton = () => {
   });
 
   return (
-    <div>
-      <button onClick={handleClickOpen}>roztwórz</button>
+    <>
+      <button className={styles.addBtn} onClick={handleClickOpen}>
+        Add
+      </button>
       <ThemeProvider theme={darkTheme}>
         <Dialog open={open} onClose={handleClickClose}>
           <DialogTitle>Add new post</DialogTitle>
@@ -81,7 +79,7 @@ const AddButton = () => {
           </DialogActions>
         </Dialog>
       </ThemeProvider>
-    </div>
+    </>
   );
 };
 
