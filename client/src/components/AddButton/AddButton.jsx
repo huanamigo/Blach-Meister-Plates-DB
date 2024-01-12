@@ -31,6 +31,9 @@ const AddButton = () => {
       primary: {
         main: '#87d74b',
       },
+      background: {
+        paper: '#090918',
+      },
     },
   });
 
@@ -43,7 +46,12 @@ const AddButton = () => {
         <Dialog open={open} onClose={handleClickClose}>
           <DialogTitle>Add new post</DialogTitle>
           <DialogContent>
-            <DialogContentText>dodaj se posta</DialogContentText>
+            <DialogContentText>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+              maxime magni amet. Excepturi consectetur rem cum dolorum tempora
+              nihil illum placeat eligendi non maiores ratione voluptatem sunt,
+              et consequatur fugit?
+            </DialogContentText>
             <TextField
               autoFocus
               margin="dense"
@@ -75,7 +83,8 @@ const AddButton = () => {
           </DialogContent>
 
           <DialogActions>
-            <button onClick={handleClickClose}>cancel</button>
+            <button onClick={handleClickClose}>Cancel</button>
+            <button onClick={handleClickClose}>Add</button>
           </DialogActions>
         </Dialog>
       </ThemeProvider>
