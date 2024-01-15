@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import {
+  Button,
   Dialog,
   DialogActions,
   DialogContent,
@@ -11,11 +12,19 @@ import {
   ThemeProvider,
   createTheme,
 } from '@mui/material';
+import { styled } from '@mui/material/styles';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+
 import plates from '../../plates.json';
 import styles from './AddButton.module.scss';
 
 const AddButton = () => {
   const [open, setOpen] = useState(false);
+  const [plate, setPlate] = React.useState('');
+
+  const handleSelect = (event) => {
+    setPlate(event.target.value);
+  };
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -37,21 +46,34 @@ const AddButton = () => {
     },
   });
 
+  const VisuallyHiddenInput = styled('input')({
+    clip: 'rect(0 0 0 0)',
+    clipPath: 'inset(50%)',
+    height: 1,
+    overflow: 'hidden',
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    whiteSpace: 'nowrap',
+    width: 1,
+  });
+
   return (
     <>
       <button className={styles.addBtn} onClick={handleClickOpen}>
         Add
       </button>
       <ThemeProvider theme={darkTheme}>
-        <Dialog open={open} onClose={handleClickClose}>
+        <Dialog open={open} onClose={handleClickClose} fullWidth={true}>
           <DialogTitle>Add new post</DialogTitle>
-          <DialogContent>
-            <DialogContentText>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-              maxime magni amet. Excepturi consectetur rem cum dolorum tempora
-              nihil illum placeat eligendi non maiores ratione voluptatem sunt,
-              et consequatur fugit?
-            </DialogContentText>
+          <DialogContent
+            sx={{
+              flexDirection: 'column',
+              m: 'auto',
+              gap: 2,
+              width: 'fit-content',
+            }}
+          >
             <TextField
               autoFocus
               margin="dense"
@@ -60,26 +82,45 @@ const AddButton = () => {
               fullWidth
               variant="outlined"
             />
+            <TextField
+              margin="dense"
+              id="desc"
+              label="Description"
+              multiline
+              rows={3}
+              fullWidth
+              variant="outlined"
+            />
 
-            <InputLabel htmlFor="plates-select">Select plate</InputLabel>
+            <InputLabel id="plates-select">Select plate</InputLabel>
             <Select
-              native
-              defaultValue=""
-              id="plates-select"
+              labelId="plates-select"
+              id="plates-select-input"
               label="Select plate"
+              value={plate}
+              onChange={handleSelect}
+              fullWidth
+              native
             >
               {plates.map((plate) => (
-                <Fragment key={plate.name}>
-                  <optgroup label={plate.name}>
-                    {plate.items.map((blacha) => (
-                      <option value={blacha.plate} key={blacha.plate}>
-                        {blacha.fullName} ({blacha.plate})
-                      </option>
-                    ))}
-                  </optgroup>
-                </Fragment>
+                <optgroup label={plate.name} key={plate.name}>
+                  {plate.items.map((blacha) => (
+                    <option value={blacha.plate} key={blacha.plate}>
+                      {blacha.fullName} ({blacha.plate})
+                    </option>
+                  ))}
+                </optgroup>
               ))}
             </Select>
+
+            <Button
+              component="label"
+              variant="contained"
+              startIcon={<CloudUploadIcon />}
+            >
+              Upload photo
+              <VisuallyHiddenInput type="file" />
+            </Button>
           </DialogContent>
 
           <DialogActions>
