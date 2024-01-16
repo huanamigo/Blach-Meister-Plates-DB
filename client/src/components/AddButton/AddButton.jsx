@@ -21,6 +21,8 @@ import styles from './AddButton.module.scss';
 const AddButton = () => {
   const [open, setOpen] = useState(false);
   const [plate, setPlate] = React.useState('');
+  const [name, setName] = React.useState('');
+  const [desc, setDesc] = React.useState('');
 
   const handleSelect = (event) => {
     setPlate(event.target.value);
@@ -30,7 +32,12 @@ const AddButton = () => {
     setOpen(true);
   };
 
-  const handleClickClose = () => {
+  const handleClickClose = (cancel) => {
+    if (cancel) {
+      setPlate('');
+      setName('');
+      setDesc('');
+    }
     setOpen(false);
   };
 
@@ -81,6 +88,10 @@ const AddButton = () => {
               label="Name"
               fullWidth
               variant="outlined"
+              value={name}
+              onChange={(event) => {
+                setName(event.target.value);
+              }}
             />
             <TextField
               margin="dense"
@@ -90,6 +101,10 @@ const AddButton = () => {
               rows={3}
               fullWidth
               variant="outlined"
+              value={desc}
+              onChange={(event) => {
+                setDesc(event.target.value);
+              }}
             />
 
             <InputLabel id="plates-select">Select plate</InputLabel>
@@ -102,6 +117,7 @@ const AddButton = () => {
               fullWidth
               native
             >
+              <option value={''}></option>
               {plates.map((plate) => (
                 <optgroup label={plate.name} key={plate.name}>
                   {plate.items.map((blacha) => (
@@ -124,8 +140,8 @@ const AddButton = () => {
           </DialogContent>
 
           <DialogActions>
-            <button onClick={handleClickClose}>Cancel</button>
-            <button onClick={handleClickClose}>Add</button>
+            <button onClick={() => handleClickClose(true)}>Cancel</button>
+            <button onClick={() => handleClickClose(false)}>Add</button>
           </DialogActions>
         </Dialog>
       </ThemeProvider>
