@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import {
+  Box,
   Button,
   Dialog,
   DialogActions,
@@ -8,6 +9,7 @@ import {
   DialogTitle,
   InputLabel,
   Select,
+  Stack,
   TextField,
   ThemeProvider,
   createTheme,
@@ -78,65 +80,76 @@ const AddButton = () => {
               flexDirection: 'column',
               m: 'auto',
               gap: 2,
-              width: 'fit-content',
+              width: '100%',
             }}
           >
-            <TextField
-              autoFocus
-              margin="dense"
-              id="name"
-              label="Name"
-              fullWidth
-              variant="outlined"
-              value={name}
-              onChange={(event) => {
-                setName(event.target.value);
+            <Stack
+              useFlexGap
+              sx={{
+                gap: 2,
+                m: 'auto',
+                width: '85%',
               }}
-            />
-            <TextField
-              margin="dense"
-              id="desc"
-              label="Description"
-              multiline
-              rows={3}
-              fullWidth
-              variant="outlined"
-              value={desc}
-              onChange={(event) => {
-                setDesc(event.target.value);
-              }}
-            />
-
-            <InputLabel id="plates-select">Select plate</InputLabel>
-            <Select
-              labelId="plates-select"
-              id="plates-select-input"
-              label="Select plate"
-              value={plate}
-              onChange={handleSelect}
-              fullWidth
-              native
             >
-              <option value={''}></option>
-              {plates.map((plate) => (
-                <optgroup label={plate.name} key={plate.name}>
-                  {plate.items.map((blacha) => (
-                    <option value={blacha.plate} key={blacha.plate}>
-                      {blacha.fullName} ({blacha.plate})
-                    </option>
+              <TextField
+                autoFocus
+                margin="dense"
+                id="name"
+                label="Name"
+                fullWidth
+                variant="outlined"
+                value={name}
+                onChange={(event) => {
+                  setName(event.target.value);
+                }}
+              />
+              <TextField
+                margin="dense"
+                id="desc"
+                label="Description"
+                multiline
+                rows={3}
+                fullWidth
+                variant="outlined"
+                value={desc}
+                onChange={(event) => {
+                  setDesc(event.target.value);
+                }}
+              />
+
+              <Box>
+                <InputLabel id="plates-select">Select plate</InputLabel>
+                <Select
+                  labelId="plates-select"
+                  id="plates-select-input"
+                  label="Select plate"
+                  value={plate}
+                  onChange={handleSelect}
+                  fullWidth
+                  native
+                >
+                  <option value={''}></option>
+                  {plates.map((plate) => (
+                    <optgroup label={plate.name} key={plate.name}>
+                      {plate.items.map((blacha) => (
+                        <option value={blacha.plate} key={blacha.plate}>
+                          {blacha.fullName} ({blacha.plate})
+                        </option>
+                      ))}
+                    </optgroup>
                   ))}
-                </optgroup>
-              ))}
-            </Select>
+                </Select>
+              </Box>
 
-            <Button
-              component="label"
-              variant="contained"
-              startIcon={<CloudUploadIcon />}
-            >
-              Upload photo
-              <VisuallyHiddenInput type="file" />
-            </Button>
+              <Button
+                component="label"
+                variant="contained"
+                startIcon={<CloudUploadIcon />}
+              >
+                Upload photo
+                <VisuallyHiddenInput type="file" />
+              </Button>
+            </Stack>
           </DialogContent>
 
           <DialogActions>
