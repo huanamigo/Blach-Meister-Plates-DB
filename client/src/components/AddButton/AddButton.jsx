@@ -35,12 +35,13 @@ const AddButton = () => {
   };
 
   const handleClickClose = (cancel) => {
-    if (cancel) {
-      setPlate('');
-      setName('');
-      setDesc('');
-    }
     setOpen(false);
+    if (!cancel) {
+      // actually add post
+    }
+    setPlate('');
+    setName('');
+    setDesc('');
   };
 
   const darkTheme = createTheme({

@@ -27,7 +27,13 @@ const Post = ({
       <div className={styles.post}>
         <div className={styles.header}>
           <img src={avatar} alt="random person form tpdne" />
-          <p>{author}</p>
+          <p>
+            {isDetailed ? (
+              <p className={styles.username}>{author}</p>
+            ) : (
+              <PlatesLink name={author} urlName={`user/${author}`} />
+            )}
+          </p>
         </div>
         <div className={styles.photo}>
           <img

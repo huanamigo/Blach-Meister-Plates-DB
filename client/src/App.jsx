@@ -4,6 +4,7 @@ import styles from './styles/App.module.scss';
 import Details from './pages/Details/Details';
 import Feed from './pages/Feed/Feed';
 import Plates from './pages/Plates/Plates';
+import User from './pages/User/User';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Feed />} />
         <Route path="plates" element={<Plates />} />
         <Route path="plates/:details" element={<Details />} />
+        <Route path="user/:username" element={<User />} />
       </Routes>
     </div>
   );
