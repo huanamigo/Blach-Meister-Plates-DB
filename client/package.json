@@ -2,7 +2,7 @@
   "name": "blach-meister",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://huanamigo.github.io/blach-meister-plates-db",
+  "homepage": "https://huanamigo.github.io/Blach-Meister-Plates-DB",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
