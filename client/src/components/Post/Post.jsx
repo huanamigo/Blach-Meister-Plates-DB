@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa';
 import { useState } from 'react';
 import PlatesLink from '../../pages/Plates/PlatesLink/PlatesLink';
+import photos from '../Photos/Photos';
 
 const Post = ({
   author,
@@ -15,8 +16,7 @@ const Post = ({
   noLikes,
   name,
   createdTime,
-  avatar,
-  photo,
+  photoId,
   isDetailed,
 }) => {
   const [liked, setLiked] = useState(false);
@@ -26,7 +26,10 @@ const Post = ({
     <div>
       <div className={styles.post}>
         <div className={styles.header}>
-          <img src={avatar} alt="random person form tpdne" />
+          <img
+            src={photos.avatars[photoId - 1]}
+            alt="random person form tpdne"
+          />
           <p>
             {isDetailed ? (
               <p className={styles.username}>{author}</p>
@@ -37,7 +40,7 @@ const Post = ({
         </div>
         <div className={styles.photo}>
           <img
-            src={photo}
+            src={photos.photos[photoId - 1]}
             alt="bardzo przepraszam pana z tego samochodu ale akurat to bylo ostatnie w mojej galerii"
           />
         </div>

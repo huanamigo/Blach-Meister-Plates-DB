@@ -1,7 +1,7 @@
 {
   "name": "blach-meister",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://huanamigo.github.io/Blach-Meister-Plates-DB",
   "type": "module",
   "scripts": {

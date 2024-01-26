@@ -28,8 +28,7 @@ const User = () => {
               noLikes={post.noLikes}
               createdTime={post.createdTime}
               name={post.name}
-              avatar={`/src/photos/av${post.id}.webp`}
-              photo={`/src/photos/${post.id}.webp`}
+              photoId={post.id}
               isDetailed={true}
             />
           ))}
