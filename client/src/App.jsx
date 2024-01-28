@@ -5,6 +5,7 @@ import Details from './pages/Details/Details';
 import Feed from './pages/Feed/Feed';
 import Plates from './pages/Plates/Plates';
 import User from './pages/User/User';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="plates/:details" element={<Details />} />
         <Route path="user/:username" element={<User />} />
       </Routes>
+      <ScrollToTop />
     </div>
   );
 }

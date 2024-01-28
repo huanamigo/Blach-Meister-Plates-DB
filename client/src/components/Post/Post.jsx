@@ -32,7 +32,7 @@ const Post = ({
           />
           <p>
             {isDetailed ? (
-              <p className={styles.username}>{author}</p>
+              <span className={styles.username}>{author}</span>
             ) : (
               <PlatesLink name={author} urlName={`user/${author}`} />
             )}
