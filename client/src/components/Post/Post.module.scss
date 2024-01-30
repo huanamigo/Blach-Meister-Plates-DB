@@ -1,6 +1,21 @@
 @import '../../styles/variables.scss';
 
+@keyframes toMiddleScreen {
+  from {
+    transform: translate(-70%);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.animation1 {
+  animation-name: toMiddleScreen;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
 .post {
+  transform: translate(-70%);
+
   color: $mainFontColor;
   display: flex;
   flex-direction: column;
@@ -8,6 +23,7 @@
   min-height: 60vh;
   max-width: 500px;
   margin: 1.5rem;
+  overflow: hidden;
 
   .header {
     // outline: 1px solid red;
@@ -100,9 +116,19 @@
 @media (max-width: $smScreen) {
   .post {
     width: 100vw;
+    transform: translate(0);
 
     .header {
       margin: 5px;
+    }
+  }
+
+  @keyframes toMiddleScreen {
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(0);
     }
   }
 }
