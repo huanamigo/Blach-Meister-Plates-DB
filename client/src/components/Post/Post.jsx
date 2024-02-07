@@ -35,7 +35,11 @@ const Post = ({
           {isDetailed ? (
             <span className={styles.username}>{author}</span>
           ) : (
-            <PlatesLink name={author} urlName={`user/${author}`} />
+            <PlatesLink
+              name={author}
+              urlName={`user/${author}`}
+              isUser={true}
+            />
           )}
         </p>
       </div>
@@ -70,7 +74,11 @@ const Post = ({
             {isDetailed ? (
               <></>
             ) : (
-              <PlatesLink name={name} urlName={`plates/${plate}`} />
+              <PlatesLink
+                name={name}
+                urlName={`plates/${plate}`}
+                isUser={true}
+              />
             )}
           </div>
         </div>

@@ -19,6 +19,7 @@ const Plates = () => {
                 key={blacha.plate}
                 name={blacha.fullName}
                 urlName={blacha.plate}
+                isUser={false}
               />
             ))}
           </div>

@@ -30,6 +30,7 @@ const User = () => {
               name={post.name}
               photoId={post.id}
               isDetailed={true}
+              isUser={true}
             />
           ))}
         </div>
