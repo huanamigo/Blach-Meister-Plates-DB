@@ -386,5 +386,1313 @@
         "plate": "ELC"
       }
     ]
+  },
+  {
+    "name": "lubuskie",
+    "letter": "F",
+    "items": [
+      {
+        "fullName": "Gorzów Wielkopolski",
+        "plate": "FG"
+      },
+      {
+        "fullName": "Zielona Góra",
+        "plate": "FZ"
+      },
+      {
+        "fullName": "powiat gorzowski",
+        "plate": "FGW"
+      },
+      {
+        "fullName": "powiat krośnieński",
+        "plate": "FKR"
+      },
+      {
+        "fullName": "powiat międzyrzecki",
+        "plate": "FMI"
+      },
+      {
+        "fullName": "powiat nowosolski",
+        "plate": "FNW"
+      },
+      {
+        "fullName": "powiat strzelecko-drezdenecki",
+        "plate": "FSD"
+      },
+      {
+        "fullName": "powiat sulęciński",
+        "plate": "FSU"
+      },
+      {
+        "fullName": "powiat świebodziński",
+        "plate": "FSW"
+      },
+      {
+        "fullName": "powiat słubicki",
+        "plate": "FSL"
+      },
+      {
+        "fullName": "powiat wschowski",
+        "plate": "FWS"
+      },
+      {
+        "fullName": "powiat żagański",
+        "plate": "FZG"
+      },
+      {
+        "fullName": "powiat żarski",
+        "plate": "FZA"
+      },
+      {
+        "fullName": "powiat zielonogórski",
+        "plate": "FZI"
+      }
+    ]
+  },
+  {
+    "name": "pomorskie",
+    "letter": "G",
+    "items": [
+      {
+        "fullName": "Gdańsk",
+        "plate": "GD"
+      },
+      {
+        "fullName": "Gdynia",
+        "plate": "GA"
+      },
+      {
+        "fullName": "Sopot",
+        "plate": "GSP"
+      },
+      {
+        "fullName": "Słupsk",
+        "plate": "GS"
+      },
+      {
+        "fullName": "powiat bytowski",
+        "plate": "GBY"
+      },
+      {
+        "fullName": "powiat chojnicki",
+        "plate": "GCH"
+      },
+      {
+        "fullName": "powiat człuchowski",
+        "plate": "GCZ"
+      },
+      {
+        "fullName": "powiat gdański",
+        "plate": "GDA"
+      },
+      {
+        "fullName": "powiat kartuski",
+        "plate": "GKA"
+      },
+      {
+        "fullName": "powiat kościerski",
+        "plate": "GKS"
+      },
+      {
+        "fullName": "powiat kwidzyński",
+        "plate": "GKW"
+      },
+      {
+        "fullName": "powiat lęborski",
+        "plate": "GLE"
+      },
+      {
+        "fullName": "powiat malborski",
+        "plate": "GMB"
+      },
+      {
+        "fullName": "powiat nowodworski",
+        "plate": "GND"
+      },
+      {
+        "fullName": "powiat pucki",
+        "plate": "GPU"
+      },
+      {
+        "fullName": "powiat starogardzki",
+        "plate": "GST"
+      },
+      {
+        "fullName": "powiat sztumski",
+        "plate": "GSZ"
+      },
+      {
+        "fullName": "powiat słupski",
+        "plate": "GSL"
+      },
+      {
+        "fullName": "powiat tczewski",
+        "plate": "GTC"
+      },
+      {
+        "fullName": "powiat wejherowski",
+        "plate": "GWE"
+      },
+      {
+        "fullName": "powiat wejherowski",
+        "plate": "GWO"
+      }
+    ]
+  },
+  {
+    "name": "małopolskie",
+    "letter": "K",
+    "items": [
+      {
+        "fullName": "Kraków",
+        "plate": "KR"
+      },
+      {
+        "fullName": "Kraków",
+        "plate": "KK"
+      },
+      {
+        "fullName": "Nowy Sącz",
+        "plate": "KN"
+      },
+      {
+        "fullName": "Tarnów",
+        "plate": "KT"
+      },
+      {
+        "fullName": "powiat bocheński",
+        "plate": "KBC"
+      },
+      {
+        "fullName": "powiat bocheński",
+        "plate": "KBA"
+      },
+      {
+        "fullName": "powiat brzeski",
+        "plate": "KBR"
+      },
+      {
+        "fullName": "powiat chrzanowski",
+        "plate": "KCH"
+      },
+      {
+        "fullName": "powiat dąbrowski",
+        "plate": "KDA"
+      },
+      {
+        "fullName": "powiat gorlicki",
+        "plate": "KGR"
+      },
+      {
+        "fullName": "powiat krakowski",
+        "plate": "KRA"
+      },
+      {
+        "fullName": "powiat limanowski",
+        "plate": "KLI"
+      },
+      {
+        "fullName": "powiat miechowski",
+        "plate": "KMI"
+      },
+      {
+        "fullName": "powiat myślenicki",
+        "plate": "KMY"
+      },
+      {
+        "fullName": "powiat nowosądecki",
+        "plate": "KNS"
+      },
+      {
+        "fullName": "powiat nowotarski",
+        "plate": "KNT"
+      },
+      {
+        "fullName": "powiat olkuski",
+        "plate": "KOL"
+      },
+      {
+        "fullName": "powiat oświęcimski",
+        "plate": "KOS"
+      },
+      {
+        "fullName": "powiat proszowicki",
+        "plate": "KPR"
+      },
+      {
+        "fullName": "powiat suski",
+        "plate": "KSU"
+      },
+      {
+        "fullName": "powiat tarnowski",
+        "plate": "KTA"
+      },
+      {
+        "fullName": "powiat tatrzański",
+        "plate": "KTT"
+      },
+      {
+        "fullName": "powiat wadowicki",
+        "plate": "KWA"
+      },
+      {
+        "fullName": "powiat wielicki",
+        "plate": "KWI"
+      }
+    ]
+  },
+  {
+    "name": "lubelskie",
+    "letter": "L",
+    "items": [
+      {
+        "fullName": "Biała Podlaska",
+        "plate": "LB"
+      },
+      {
+        "fullName": "Chełm",
+        "plate": "LC"
+      },
+      {
+        "fullName": "Lublin",
+        "plate": "LU"
+      },
+      {
+        "fullName": "Zamość",
+        "plate": "LZ"
+      },
+      {
+        "fullName": "powiat bialski",
+        "plate": "LBI"
+      },
+      {
+        "fullName": "powiat biłgorajski",
+        "plate": "LBL"
+      },
+      {
+        "fullName": "powiat chełmski",
+        "plate": "LCH"
+      },
+      {
+        "fullName": "powiat hrubieszowski",
+        "plate": "LHR"
+      },
+      {
+        "fullName": "powiat janowski",
+        "plate": "LJA"
+      },
+      {
+        "fullName": "powiat kraśnicki",
+        "plate": "LKR"
+      },
+      {
+        "fullName": "powiat krasnostawski",
+        "plate": "LKS"
+      },
+      {
+        "fullName": "powiat lubartowski",
+        "plate": "LLB"
+      },
+      {
+        "fullName": "powiat lubelski",
+        "plate": "LUB"
+      },
+      {
+        "fullName": "powiat opolski",
+        "plate": "LOP"
+      },
+      {
+        "fullName": "powiat parczewski",
+        "plate": "LPA"
+      },
+      {
+        "fullName": "powiat puławski",
+        "plate": "LPU"
+      },
+      {
+        "fullName": "powiat radzyński",
+        "plate": "LRA"
+      },
+      {
+        "fullName": "powiat rycki",
+        "plate": "LRY"
+      },
+      {
+        "fullName": "powiat świdnicki",
+        "plate": "LSW"
+      },
+      {
+        "fullName": "powiat tomaszowski",
+        "plate": "LTM"
+      },
+      {
+        "fullName": "powiat włodawski",
+        "plate": "LWL"
+      },
+      {
+        "fullName": "powiat zamojski",
+        "plate": "LZA"
+      },
+      {
+        "fullName": "powiat łęczyński",
+        "plate": "LLE"
+      },
+      {
+        "fullName": "powiat łukowski",
+        "plate": "LLU"
+      }
+    ]
+  },
+  {
+    "name": "warmińsko-mazurskie",
+    "letter": "N",
+    "items": [
+      {
+        "fullName": "Elbląg",
+        "plate": "NE"
+      },
+      {
+        "fullName": "Olsztyn",
+        "plate": "NO"
+      },
+      {
+        "fullName": "powiat bartoszycki",
+        "plate": "NBA"
+      },
+      {
+        "fullName": "powiat braniewski",
+        "plate": "NBR"
+      },
+      {
+        "fullName": "powiat działdowski",
+        "plate": "NDZ"
+      },
+      {
+        "fullName": "powiat elbląski",
+        "plate": "NEB"
+      },
+      {
+        "fullName": "powiat ełcki",
+        "plate": "NEL"
+      },
+      {
+        "fullName": "powiat giżycki",
+        "plate": "NGI"
+      },
+      {
+        "fullName": "powiat gołdapski",
+        "plate": "NGO"
+      },
+      {
+        "fullName": "powiat iławski",
+        "plate": "NIL"
+      },
+      {
+        "fullName": "powiat kętrzyński",
+        "plate": "NKE"
+      },
+      {
+        "fullName": "powiat lidzbarski",
+        "plate": "NLI"
+      },
+      {
+        "fullName": "powiat mrągowski",
+        "plate": "NMR"
+      },
+      {
+        "fullName": "powiat nidzicki",
+        "plate": "NNI"
+      },
+      {
+        "fullName": "powiat nowomiejski",
+        "plate": "NNM"
+      },
+      {
+        "fullName": "powiat olecki",
+        "plate": "NOE"
+      },
+      {
+        "fullName": "powiat olsztyński",
+        "plate": "NOL"
+      },
+      {
+        "fullName": "powiat ostródzki",
+        "plate": "NOS"
+      },
+      {
+        "fullName": "powiat piski",
+        "plate": "NPI"
+      },
+      {
+        "fullName": "powiat szczycieński",
+        "plate": "NSZ"
+      },
+      {
+        "fullName": "powiat węgorzewski",
+        "plate": "NWE"
+      }
+    ]
+  },
+  {
+    "name": "opolskie",
+    "letter": "O",
+    "items": [
+      {
+        "fullName": "Opole",
+        "plate": "OP"
+      },
+      {
+        "fullName": "powiat brzeski",
+        "plate": "OB"
+      },
+      {
+        "fullName": "powiat głubczycki",
+        "plate": "OGL"
+      },
+      {
+        "fullName": "powiat kędzierzyńsko-kozielski",
+        "plate": "OK"
+      },
+      {
+        "fullName": "powiat kluczborski",
+        "plate": "OKL"
+      },
+      {
+        "fullName": "powiat krapkowicki",
+        "plate": "OKR"
+      },
+      {
+        "fullName": "powiat namysłowski",
+        "plate": "ONA"
+      },
+      {
+        "fullName": "powiat nyski",
+        "plate": "ONY"
+      },
+      {
+        "fullName": "powiat oleski",
+        "plate": "OOL"
+      },
+      {
+        "fullName": "powiat opolski",
+        "plate": "OPO"
+      },
+      {
+        "fullName": "powiat prudnicki",
+        "plate": "OPR"
+      },
+      {
+        "fullName": "powiat strzelecki",
+        "plate": "OST"
+      }
+    ]
+  },
+  {
+    "name": "wielkopolskie",
+    "letter": "P",
+    "items": [
+      {
+        "fullName": "Kalisz",
+        "plate": "PK"
+      },
+      {
+        "fullName": "Konin",
+        "plate": "PN"
+      },
+      {
+        "fullName": "Leszno",
+        "plate": "PL"
+      },
+      {
+        "fullName": "Poznań",
+        "plate": "PO"
+      },
+      {
+        "fullName": "Poznań",
+        "plate": "PY"
+      },
+      {
+        "fullName": "powiat chodzieski",
+        "plate": "PCH"
+      },
+      {
+        "fullName": "powiat czarnkowsko-trzcianecki",
+        "plate": "PCT"
+      },
+      {
+        "fullName": "powiat gnieźnieński",
+        "plate": "PGN"
+      },
+      {
+        "fullName": "powiat gostyński",
+        "plate": "PGS"
+      },
+      {
+        "fullName": "powiat grodziski",
+        "plate": "PGO"
+      },
+      {
+        "fullName": "powiat jarociński",
+        "plate": "PJA"
+      },
+      {
+        "fullName": "powiat kaliski",
+        "plate": "PKA"
+      },
+      {
+        "fullName": "powiat kępiński",
+        "plate": "PKE"
+      },
+      {
+        "fullName": "powiat kolski",
+        "plate": "PKL"
+      },
+      {
+        "fullName": "powiat koniński",
+        "plate": "PKN"
+      },
+      {
+        "fullName": "powiat kościański",
+        "plate": "PKS"
+      },
+      {
+        "fullName": "powiat krotoszyński",
+        "plate": "PKR"
+      },
+      {
+        "fullName": "powiat leszczyński",
+        "plate": "PLE"
+      },
+      {
+        "fullName": "powiat międzychodzki",
+        "plate": "PMI"
+      },
+      {
+        "fullName": "powiat nowotomyski",
+        "plate": "PNT"
+      },
+      {
+        "fullName": "powiat obornicki",
+        "plate": "POB"
+      },
+      {
+        "fullName": "powiat ostrowski",
+        "plate": "POS"
+      },
+      {
+        "fullName": "powiat ostrzeszowski",
+        "plate": "POT"
+      },
+      {
+        "fullName": "powiat pilski",
+        "plate": "PP"
+      },
+      {
+        "fullName": "powiat pleszewski",
+        "plate": "PPL"
+      },
+      {
+        "fullName": "powiat poznański",
+        "plate": "PZ"
+      },
+      {
+        "fullName": "powiat rawicki",
+        "plate": "PRA"
+      },
+      {
+        "fullName": "powiat średzki",
+        "plate": "PSR"
+      },
+      {
+        "fullName": "powiat śremski",
+        "plate": "PSE"
+      },
+      {
+        "fullName": "powiat szamotulski",
+        "plate": "PSZ"
+      },
+      {
+        "fullName": "powiat słupecki",
+        "plate": "PSL"
+      },
+      {
+        "fullName": "powiat turecki",
+        "plate": "PTU"
+      },
+      {
+        "fullName": "powiat wągrowiecki",
+        "plate": "PWA"
+      },
+      {
+        "fullName": "powiat wolsztyński",
+        "plate": "PWL"
+      },
+      {
+        "fullName": "powiat wrzesiński",
+        "plate": "PWR"
+      },
+      {
+        "fullName": "powiat złotowski",
+        "plate": "PZL"
+      }
+    ]
+  },
+  {
+    "name": "podkarpackie",
+    "letter": "R",
+    "items": [
+      {
+        "fullName": "Krosno",
+        "plate": "RK"
+      },
+      {
+        "fullName": "Przemyśl",
+        "plate": "RP"
+      },
+      {
+        "fullName": "Rzeszów",
+        "plate": "RZ"
+      },
+      {
+        "fullName": "Tarnobrzeg",
+        "plate": "RT"
+      },
+      {
+        "fullName": "powiat bieszczadzki",
+        "plate": "RBI"
+      },
+      {
+        "fullName": "powiat brzozowski",
+        "plate": "RBR"
+      },
+      {
+        "fullName": "powiat dębicki",
+        "plate": "RDE"
+      },
+      {
+        "fullName": "powiat jarosławski",
+        "plate": "RJA"
+      },
+      {
+        "fullName": "powiat jasielski",
+        "plate": "RJS"
+      },
+      {
+        "fullName": "powiat kolbuszowski",
+        "plate": "RKL"
+      },
+      {
+        "fullName": "powiat krośnieński",
+        "plate": "RKR"
+      },
+      {
+        "fullName": "powiat leski",
+        "plate": "RLS"
+      },
+      {
+        "fullName": "powiat leżajski",
+        "plate": "RLE"
+      },
+      {
+        "fullName": "powiat lubaczowski",
+        "plate": "RLU"
+      },
+      {
+        "fullName": "powiat mielecki",
+        "plate": "RMI"
+      },
+      {
+        "fullName": "powiat niżański",
+        "plate": "RNI"
+      },
+      {
+        "fullName": "powiat przemyski",
+        "plate": "RPR"
+      },
+      {
+        "fullName": "powiat przeworski",
+        "plate": "RPZ"
+      },
+      {
+        "fullName": "powiat ropczycko-sędziszowski",
+        "plate": "RRS"
+      },
+      {
+        "fullName": "powiat rzeszowski",
+        "plate": "RZE"
+      },
+      {
+        "fullName": "powiat sanocki",
+        "plate": "RSA"
+      },
+      {
+        "fullName": "powiat stalowowolski",
+        "plate": "RST"
+      },
+      {
+        "fullName": "powiat strzyżowski",
+        "plate": "RSR"
+      },
+      {
+        "fullName": "powiat tarnobrzeski",
+        "plate": "RTA"
+      },
+      {
+        "fullName": "powiat łańcucki",
+        "plate": "RLA"
+      }
+    ]
+  },
+  {
+    "name": "śląskie",
+    "letter": "S",
+    "items": [
+      {
+        "fullName": "Bielsko-Biała",
+        "plate": "SB"
+      },
+      {
+        "fullName": "Bytom",
+        "plate": "SY"
+      },
+      {
+        "fullName": "Chorzów",
+        "plate": "SH"
+      },
+      {
+        "fullName": "Częstochowa",
+        "plate": "SC"
+      },
+      {
+        "fullName": "Dąbrowa Górnicza",
+        "plate": "SD"
+      },
+      {
+        "fullName": "Gliwice",
+        "plate": "SG"
+      },
+      {
+        "fullName": "Jastrzębie-Zdrój",
+        "plate": "SJZ"
+      },
+      {
+        "fullName": "Jaworzno",
+        "plate": "SJ"
+      },
+      {
+        "fullName": "Katowice",
+        "plate": "SK"
+      },
+      {
+        "fullName": "Mysłowice",
+        "plate": "SM"
+      },
+      {
+        "fullName": "Piekary Śląskie",
+        "plate": "SPI"
+      },
+      {
+        "fullName": "Ruda Śląska",
+        "plate": "SL"
+      },
+      {
+        "fullName": "Rybnik",
+        "plate": "SR"
+      },
+      {
+        "fullName": "Siemianowice Śląskie",
+        "plate": "SI"
+      },
+      {
+        "fullName": "Sosnowiec",
+        "plate": "SO"
+      },
+      {
+        "fullName": "Świętochłowice",
+        "plate": "SW"
+      },
+      {
+        "fullName": "Tychy",
+        "plate": "ST"
+      },
+      {
+        "fullName": "Zabrze",
+        "plate": "SZ"
+      },
+      {
+        "fullName": "Żory",
+        "plate": "SZO"
+      },
+      {
+        "fullName": "powiat będziński",
+        "plate": "SBE"
+      },
+      {
+        "fullName": "powiat bielski",
+        "plate": "SBI"
+      },
+      {
+        "fullName": "powiat bieruńsko-lędziński",
+        "plate": "SBL"
+      },
+      {
+        "fullName": "powiat cieszyński",
+        "plate": "SCI"
+      },
+      {
+        "fullName": "powiat częstochowski",
+        "plate": "SCZ"
+      },
+      {
+        "fullName": "powiat gliwicki",
+        "plate": "SGL"
+      },
+      {
+        "fullName": "powiat kłobucki",
+        "plate": "SKL"
+      },
+      {
+        "fullName": "powiat lubliniecki",
+        "plate": "SLU"
+      },
+      {
+        "fullName": "powiat mikołowski",
+        "plate": "SMI"
+      },
+      {
+        "fullName": "powiat myszkowski",
+        "plate": "SMY"
+      },
+      {
+        "fullName": "powiat pszczyński",
+        "plate": "SPS"
+      },
+      {
+        "fullName": "powiat raciborski",
+        "plate": "SRC"
+      },
+      {
+        "fullName": "powiat rybnicki",
+        "plate": "SRB"
+      },
+      {
+        "fullName": "powiat tarnogórski",
+        "plate": "STA"
+      },
+      {
+        "fullName": "powiat wodzisławski",
+        "plate": "SWD"
+      },
+      {
+        "fullName": "powiat wodzisławski",
+        "plate": "SWZ"
+      },
+      {
+        "fullName": "powiat zawierciański",
+        "plate": "SZA"
+      },
+      {
+        "fullName": "powiat żywiecki",
+        "plate": "SZY"
+      }
+    ]
+  },
+  {
+    "name": "świętokrzyskie",
+    "letter": "T",
+    "items": [
+      {
+        "fullName": "Kielce",
+        "plate": "TK"
+      },
+      {
+        "fullName": "powiat buski",
+        "plate": "TBU"
+      },
+      {
+        "fullName": "powiat jędrzejowski",
+        "plate": "TJE"
+      },
+      {
+        "fullName": "powiat kazimierski",
+        "plate": "TKA"
+      },
+      {
+        "fullName": "powiat kielecki",
+        "plate": "TKI"
+      },
+      {
+        "fullName": "powiat konecki",
+        "plate": "TKN"
+      },
+      {
+        "fullName": "powiat opatowski",
+        "plate": "TOP"
+      },
+      {
+        "fullName": "powiat ostrowiecki",
+        "plate": "TOS"
+      },
+      {
+        "fullName": "powiat pińczowski",
+        "plate": "TPI"
+      },
+      {
+        "fullName": "powiat sandomierski",
+        "plate": "TSA"
+      },
+      {
+        "fullName": "powiat skarżyski",
+        "plate": "TSK"
+      },
+      {
+        "fullName": "powiat starachowicki",
+        "plate": "TST"
+      },
+      {
+        "fullName": "powiat staszowski",
+        "plate": "TSZ"
+      },
+      {
+        "fullName": "powiat włoszczowski",
+        "plate": "TLW"
+      }
+    ]
+  },
+  {
+    "name": "mazowieckie",
+    "letter": "W",
+    "items": [
+      {
+        "fullName": "Ostrołęka",
+        "plate": "WO"
+      },
+      {
+        "fullName": "Płock",
+        "plate": "WP"
+      },
+      {
+        "fullName": "Radom",
+        "plate": "WR"
+      },
+      {
+        "fullName": "Siedlce",
+        "plate": "WS"
+      },
+      {
+        "fullName": "Warszawa Bemowo",
+        "plate": "WB"
+      },
+      {
+        "fullName": "Warszawa Białołęka",
+        "plate": "WA"
+      },
+      {
+        "fullName": "Warszawa Bielany",
+        "plate": "WD"
+      },
+      {
+        "fullName": "Warszawa Mokotów",
+        "plate": "WE"
+      },
+      {
+        "fullName": "Warszawa Ochota",
+        "plate": "WU"
+      },
+      {
+        "fullName": "Warszawa Praga Północ",
+        "plate": "WH"
+      },
+      {
+        "fullName": "Warszawa Praga Południe",
+        "plate": "WF"
+      },
+      {
+        "fullName": "Warszawa Rembertów, Wilanów, Włochy",
+        "plate": "WW"
+      },
+      {
+        "fullName": "Warszawa Śródmieście",
+        "plate": "WI"
+      },
+      {
+        "fullName": "Warszawa Targówek",
+        "plate": "WJ"
+      },
+      {
+        "fullName": "Warszawa Ursus",
+        "plate": "WK"
+      },
+      {
+        "fullName": "Warszawa Ursynów",
+        "plate": "WN"
+      },
+      {
+        "fullName": "Warszawa Wawer",
+        "plate": "WT"
+      },
+      {
+        "fullName": "Warszawa Wesoła, Żoliborz",
+        "plate": "WX"
+      },
+      {
+        "fullName": "Warszawa Wola",
+        "plate": "WY"
+      },
+      {
+        "fullName": "powiat białobrzeski",
+        "plate": "WBR"
+      },
+      {
+        "fullName": "powiat ciechanowski",
+        "plate": "WCI"
+      },
+      {
+        "fullName": "powiat garwoliński",
+        "plate": "WG"
+      },
+      {
+        "fullName": "powiat gostyniński",
+        "plate": "WGS"
+      },
+      {
+        "fullName": "powiat grodziski",
+        "plate": "WGM"
+      },
+      {
+        "fullName": "powiat grójecki",
+        "plate": "WGR"
+      },
+      {
+        "fullName": "powiat kozienicki",
+        "plate": "WKZ"
+      },
+      {
+        "fullName": "powiat legionowski",
+        "plate": "WL"
+      },
+      {
+        "fullName": "powiat lipski",
+        "plate": "WLI"
+      },
+      {
+        "fullName": "powiat makowski",
+        "plate": "WMA"
+      },
+      {
+        "fullName": "powiat miński",
+        "plate": "WM"
+      },
+      {
+        "fullName": "powiat mławski",
+        "plate": "WML"
+      },
+      {
+        "fullName": "powiat nowodworski",
+        "plate": "WND"
+      },
+      {
+        "fullName": "powiat ostrowski",
+        "plate": "WOR"
+      },
+      {
+        "fullName": "powiat ostrołęcki",
+        "plate": "WOS"
+      },
+      {
+        "fullName": "powiat otwocki",
+        "plate": "WOT"
+      },
+      {
+        "fullName": "powiat piaseczyński",
+        "plate": "WPI"
+      },
+      {
+        "fullName": "powiat pruszkowski",
+        "plate": "WPR"
+      },
+      {
+        "fullName": "powiat pruszkowski",
+        "plate": "WPP"
+      },
+      {
+        "fullName": "powiat pruszkowski",
+        "plate": "WPS"
+      },
+      {
+        "fullName": "powiat przasnyski",
+        "plate": "WPZ"
+      },
+      {
+        "fullName": "powiat przysuski",
+        "plate": "WPY"
+      },
+      {
+        "fullName": "powiat pułtuski",
+        "plate": "WPU"
+      },
+      {
+        "fullName": "powiat płocki",
+        "plate": "WPL"
+      },
+      {
+        "fullName": "powiat płoński",
+        "plate": "WPN"
+      },
+      {
+        "fullName": "powiat radomski",
+        "plate": "WRA"
+      },
+      {
+        "fullName": "powiat siedlecki",
+        "plate": "WSI"
+      },
+      {
+        "fullName": "powiat sierpecki",
+        "plate": "WSE"
+      },
+      {
+        "fullName": "powiat sochaczewski",
+        "plate": "WSC"
+      },
+      {
+        "fullName": "powiat sokołowski",
+        "plate": "WSK"
+      },
+      {
+        "fullName": "powiat szydłowiecki",
+        "plate": "WSZ"
+      },
+      {
+        "fullName": "powiat warszawski zachodni",
+        "plate": "WZ"
+      },
+      {
+        "fullName": "powiat węgrowski",
+        "plate": "WWE"
+      },
+      {
+        "fullName": "powiat wołomiński",
+        "plate": "WWL"
+      },
+      {
+        "fullName": "powiat wołomiński",
+        "plate": "WV"
+      },
+      {
+        "fullName": "powiat wyszkowski",
+        "plate": "WWY"
+      },
+      {
+        "fullName": "powiat żuromiński",
+        "plate": "WZU"
+      },
+      {
+        "fullName": "powiat zwoleński",
+        "plate": "WZW"
+      },
+      {
+        "fullName": "powiat żyrardowski",
+        "plate": "WZY"
+      },
+      {
+        "fullName": "powiat łosicki",
+        "plate": "WLS"
+      }
+    ]
+  },
+  {
+    "name": "zachodniopomorskie",
+    "letter": "Z",
+    "items": [
+      {
+        "fullName": "Koszalin",
+        "plate": "ZK"
+      },
+      {
+        "fullName": "Świnoujście",
+        "plate": "ZSW"
+      },
+      {
+        "fullName": "Szczecin",
+        "plate": "ZS"
+      },
+      {
+        "fullName": "Szczecin",
+        "plate": "ZZ"
+      },
+      {
+        "fullName": "powiat białogardzki",
+        "plate": "ZBI"
+      },
+      {
+        "fullName": "powiat choszczeński",
+        "plate": "ZCH"
+      },
+      {
+        "fullName": "powiat drawski",
+        "plate": "ZDR"
+      },
+      {
+        "fullName": "powiat goleniowski",
+        "plate": "ZGL"
+      },
+      {
+        "fullName": "powiat gryficki",
+        "plate": "ZGY"
+      },
+      {
+        "fullName": "powiat gryfiński",
+        "plate": "ZGR"
+      },
+      {
+        "fullName": "powiat kamieński",
+        "plate": "ZKA"
+      },
+      {
+        "fullName": "powiat koszaliński",
+        "plate": "ZKO"
+      },
+      {
+        "fullName": "powiat kołobrzeski",
+        "plate": "ZKL"
+      },
+      {
+        "fullName": "powiat myśliborski",
+        "plate": "ZMY"
+      },
+      {
+        "fullName": "powiat policki",
+        "plate": "ZPL"
+      },
+      {
+        "fullName": "powiat pyrzycki",
+        "plate": "ZPY"
+      },
+      {
+        "fullName": "powiat stargardzki",
+        "plate": "ZST"
+      },
+      {
+        "fullName": "powiat świdwiński",
+        "plate": "ZSD"
+      },
+      {
+        "fullName": "powiat szczecinecki",
+        "plate": "ZSZ"
+      },
+      {
+        "fullName": "powiat sławieński",
+        "plate": "ZSL"
+      },
+      {
+        "fullName": "powiat wałecki",
+        "plate": "ZWA"
+      },
+      {
+        "fullName": "powiat łobeski",
+        "plate": "ZLO"
+      }
+    ]
   }
 ]
