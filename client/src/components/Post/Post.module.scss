@@ -10,8 +10,9 @@
 }
 .animation1 {
   animation-name: toMiddleScreen;
-  animation-duration: 1.5s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 .post {
   transform: translate(-70%);
