@@ -10,7 +10,9 @@ const PlatesLink = ({ name, urlName, isUser }) => {
         </Link>
       ) : (
         <Link className={styles.link} relative="path" to={urlName}>
-          <b>({urlName})</b> {name}
+          <span>
+            <b>({urlName})</b> {name}
+          </span>
         </Link>
       )}
     </>

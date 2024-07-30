@@ -1,4 +1,4 @@
-import { useEffect, useState, Fragment } from 'react';
+import { Fragment } from 'react';
 import PlatesLink from './PlatesLink/PlatesLink';
 import styles from './Plates.module.scss';
 
@@ -6,8 +6,6 @@ import styles from './Plates.module.scss';
 import plates from '../../plates.json';
 
 const Plates = () => {
-  // const [platesId, setPlatesId] = useState([]);
-
   return (
     <div className={styles.container}>
       {plates.map((plate) => (
