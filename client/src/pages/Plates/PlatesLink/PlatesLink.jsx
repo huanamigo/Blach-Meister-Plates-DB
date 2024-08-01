@@ -9,9 +9,14 @@ const PlatesLink = ({ name, urlName, isUser }) => {
           {name}
         </Link>
       ) : (
-        <Link className={styles.link} relative="path" to={urlName}>
+        <Link className={styles.link} relative="path" to={urlName[0]}>
           <span>
-            <b>({urlName})</b> {name}
+            <b>
+              (
+              {urlName.length > 1 ? `${urlName[0]}, ${urlName[1]}` : urlName[0]}
+              )
+            </b>{' '}
+            {name}
           </span>
         </Link>
       )}
