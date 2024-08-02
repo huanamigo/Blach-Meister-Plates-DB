@@ -269,7 +269,7 @@
       },
       {
         "fullName": "powiat wrocławski",
-        "plate": ["DWR"]
+        "plate": ["DWR", "VWR"]
       },
       {
         "fullName": "powiat ząbkowicki",
@@ -299,7 +299,7 @@
       },
       {
         "fullName": "Łódź",
-        "plate": ["EL"]
+        "plate": ["EL", "ED"]
       },
       {
         "fullName": "powiat bełchatowski",
@@ -487,7 +487,7 @@
       },
       {
         "fullName": "powiat kartuski",
-        "plate": ["GKA"]
+        "plate": ["GKA", "GKY"]
       },
       {
         "fullName": "powiat kościerski",
@@ -531,11 +531,7 @@
       },
       {
         "fullName": "powiat wejherowski",
-        "plate": ["GWE"]
-      },
-      {
-        "fullName": "powiat wejherowski",
-        "plate": ["GWO"]
+        "plate": ["GWE", "GWO"]
       }
     ]
   },
@@ -545,11 +541,7 @@
     "items": [
       {
         "fullName": "Kraków",
-        "plate": ["KR"]
-      },
-      {
-        "fullName": "Kraków",
-        "plate": ["KK"]
+        "plate": ["KR", "KK"]
       },
       {
         "fullName": "Nowy Sącz",
@@ -561,11 +553,7 @@
       },
       {
         "fullName": "powiat bocheński",
-        "plate": ["KBC"]
-      },
-      {
-        "fullName": "powiat bocheński",
-        "plate": ["KBA"]
+        "plate": ["KBC", "KBA"]
       },
       {
         "fullName": "powiat brzeski",
@@ -781,7 +769,7 @@
       },
       {
         "fullName": "powiat gołdapski",
-        "plate": ["NGO"]
+        "plate": ["NGO", "NOG"]
       },
       {
         "fullName": "powiat iławski",
@@ -893,11 +881,11 @@
     "items": [
       {
         "fullName": "Kalisz",
-        "plate": ["PK"]
+        "plate": ["PK", "PA"]
       },
       {
         "fullName": "Konin",
-        "plate": ["PN"]
+        "plate": ["PN", "PKO"]
       },
       {
         "fullName": "Leszno",
@@ -905,11 +893,7 @@
       },
       {
         "fullName": "Poznań",
-        "plate": ["PO"]
-      },
-      {
-        "fullName": "Poznań",
-        "plate": ["PY"]
+        "plate": ["PO", "PY"]
       },
       {
         "fullName": "powiat chodzieski",
@@ -993,7 +977,7 @@
       },
       {
         "fullName": "powiat poznański",
-        "plate": ["PZ"]
+        "plate": ["PZ", "POZ"]
       },
       {
         "fullName": "powiat rawicki",
@@ -1193,7 +1177,7 @@
       },
       {
         "fullName": "Ruda Śląska",
-        "plate": ["SL"]
+        "plate": ["SL", "SRS"]
       },
       {
         "fullName": "Rybnik",
@@ -1233,11 +1217,11 @@
       },
       {
         "fullName": "powiat bieruńsko-lędziński",
-        "plate": ["SBL"]
+        "plate": ["SBL", "STY"]
       },
       {
         "fullName": "powiat cieszyński",
-        "plate": ["SCI"]
+        "plate": ["SCI", "SCN"]
       },
       {
         "fullName": "powiat częstochowski",
@@ -1281,11 +1265,7 @@
       },
       {
         "fullName": "powiat wodzisławski",
-        "plate": ["SWD"]
-      },
-      {
-        "fullName": "powiat wodzisławski",
-        "plate": ["SWZ"]
+        "plate": ["SWD", "SWZ"]
       },
       {
         "fullName": "powiat zawierciański",
@@ -1432,6 +1412,10 @@
         "plate": ["WT"]
       },
       {
+        "fullName": "Warszawa Wesoła",
+        "plate": ["WX...Y", "WX...X"]
+      },
+      {
         "fullName": "Warszawa Wesoła, Żoliborz",
         "plate": ["WX"]
       },
@@ -1505,15 +1489,11 @@
       },
       {
         "fullName": "powiat piaseczyński",
-        "plate": ["WPI"]
+        "plate": ["WPI", "WPW/WPA"]
       },
       {
         "fullName": "powiat pruszkowski",
-        "plate": ["WPR"]
-      },
-      {
-        "fullName": "powiat pruszkowski",
-        "plate": ["WPP"]
+        "plate": ["WPR", "WPP"]
       },
       {
         "fullName": "powiat pruszkowski",
@@ -1573,11 +1553,7 @@
       },
       {
         "fullName": "powiat wołomiński",
-        "plate": ["WWL"]
-      },
-      {
-        "fullName": "powiat wołomiński",
-        "plate": ["WV"]
+        "plate": ["WWL", "WV"]
       },
       {
         "fullName": "powiat wyszkowski",
@@ -1615,11 +1591,7 @@
       },
       {
         "fullName": "Szczecin",
-        "plate": ["ZS"]
-      },
-      {
-        "fullName": "Szczecin",
-        "plate": ["ZZ"]
+        "plate": ["ZS", "ZZ"]
       },
       {
         "fullName": "powiat białogardzki",
